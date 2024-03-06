@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "parcel-plugin-compress": "^2.0.2",
+    "postcss-modules": "^6.0.0",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "purgecss": "^5.0.0"
+  }
+}

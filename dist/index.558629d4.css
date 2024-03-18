@@ -84,8 +84,8 @@ body {
 }
 
 .about-me__introduction {
-  width: 60%;
   font-family: Spectral;
+  font-size: 1rem;
   font-style: italic;
   font-weight: 800;
 }
@@ -100,48 +100,12 @@ body {
   padding-block: 2em;
 }
 
-.gallery .nav {
-  justify-content: center;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #beb45a;
-  border-radius: 0;
-}
-
-.nav-pills .nav-link {
-  color: #000;
-}
-
-.item-column {
-  padding: 0;
-  position: relative;
-  margin-bottom: 0 !important;
-}
-
-.item-column:after {
-  content: "";
-  padding-bottom: 100%;
-  display: block;
-}
-
 .gallery-item {
   object-fit: cover;
   width: 100%;
   height: 100%;
   padding: .5em;
   position: absolute;
-}
-
-.mg-prev, .mg-next {
-  border-radius: 0%;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  font-size: 24px;
-  display: flex;
 }
 
 .quote {
@@ -270,7 +234,7 @@ input[type="submit"] {
     margin-bottom: 1em;
   }
 
-  #about-me h6, #about-me p {
+  #about-me p {
     width: 100%;
   }
 }
